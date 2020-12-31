@@ -1,0 +1,352 @@
+/* RESET BRUNO */
+/*top right bottom left;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  color: #2b3346;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  line-height: 50px;
+  font-size: 2.5rem;
+}
+
+:root {
+  --azul: #0A5FA9;
+  --verde: #0AA983;
+  --amarelo: #A9860A;
+  --vermelho: #A90A0A;
+}
+
+/* CONFIG */
+
+hr {
+
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tazul {
+  color: var(--azul);
+}
+
+.tverde {
+  color: var(--verde);
+}
+
+.tamarelo {
+  color: var(--amarelo);
+}
+
+.tvermelho {
+  color: var(--vermelho);
+}
+
+
+
+
+/* ELEMENTOS */
+.tcentro {
+  text-align: center;
+}
+
+.tdireita {
+  text-align: right;
+}
+
+.feature {
+  background-color: #fff;
+
+}
+
+.feature2 {
+  font-size: 1rem;
+}
+
+#scasa .feature {
+  border: 2px solid var(--azul);
+}
+
+#sauto .feature {
+  border: 2px solid var(--verde);
+}
+
+#sempresarial .feature {
+  border: 2px solid var(--amarelo);
+}
+
+#sfin .feature {
+  border: 2px solid var(--vermelho);
+}
+
+ul,
+ol {
+  font-size: 1.3rem;
+}
+
+ol li,
+ul li {
+  margin-bottom: 10px;
+}
+
+.bord_10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.info {
+  background-color: #fff;
+  border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -ms-border-radius: 0px 0px 10px 10px;
+  -o-border-radius: 0px 0px 10px 10px;
+}
+
+.bt {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.foto {
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+  height: 150px;
+}
+
+/* FUNDOS CARDS */
+.fcasa {
+  background-image: url(i/card/seg_casa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fauto {
+  background-image: url(i/card/seg_auto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fempresarial {
+  background-image: url(i/card/seg_empresarial.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ffinanceiro {
+  background-image: url(i/card/seg_financeira.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fccaixa {
+  background-image: url(i/casa_caixa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fcar {
+  background-image: url(i/casa_ar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fcdete {
+  background-image: url(i/casa_dete.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* FUNDOS CARDS */
+
+#card_casa .bt,
+.contratar_casa .bt {
+  background-color: var(--azul);
+}
+
+#card_auto .bt,
+.contratar_auto .bt {
+  background-color: var(--verde);
+}
+
+#card_empresarial .bt,
+.contratar_emp .bt {
+  background-color: var(--amarelo);
+}
+
+#card_financeiro .bt,
+.contratar_fin .bt {
+  background-color: var(--vermelho);
+}
+
+.card .bt,
+.contratar_casa .bt,
+.contratar_auto .bt,
+.contratar_emp .bt,
+.contratar_fin .bt {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.sombra_10 {
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+
+
+/* BOTOES */
+
+.bt {
+  color: #fff;
+  transition: all 0.3s 0s ease;
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -ms-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+}
+
+#card_casa .bt:hover,
+.contratar_casa .bt:hover {
+  background-color: #fff;
+  color: var(--azul);
+  box-shadow: 0px 0px 20px var(--azul);
+}
+
+#card_auto .bt:hover,
+.contratar_auto .bt:hover {
+  background-color: #fff;
+  color: var(--verde);
+  box-shadow: 0px 0px 20px var(--verde);
+}
+
+#card_empresarial .bt:hover,
+.contratar_emp .bt:hover {
+  background-color: #fff;
+  color: var(--amarelo);
+  box-shadow: 0px 0px 20px var(--amarelo);
+}
+
+#card_financeiro .bt:hover,
+.contratar_fin .bt:hover {
+  background-color: #fff;
+  color: var(--vermelho);
+  box-shadow: 0px 0px 20px var(--vermelho);
+}
+
+
+
+/* LINKS */
+
+a:link {
+  text-decoration: none;
+}
+
+
+/* SEÇÕES */
+#opcoes {
+  background-color: rgba(10, 95, 169, 0.15);
+}
+
+#sauto {
+  background-color: rgba(10, 169, 131, 0.15);
+}
+
+#sempresarial {
+  background-color: rgba(169, 134, 10, 0.15);
+  text-align: left;
+}
+
+#sfin {
+  background-color: rgba(169, 10, 10, 0.15);
+}
+
+.secoes {
+  padding: 40px 0px 40px;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .secoes {
+    padding: 70px 0px 70px;
+  }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  #sauto {
+    background-image: url(i/fundo_auto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #sempresarial {
+    background-image: url(i/fundo_empresarial.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+  }
+
+  #sfin {
+    background-image: url(i/fundo_financeiro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
